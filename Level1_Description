@@ -1,0 +1,48 @@
+LEVEL 1 — Basic ML Model
+
+Features
+- Load dataset
+- Train model (Logistic Regression)
+- Predict pass/fail
+
+
+1. Load Dataset
+Bring your data into the program for processing.
+What happens:
+- Read data from a file (like student_data.csv) using a library (e.g., pandas)
+- Store it in a table format (rows = students, columns = features)
+
+Example data:
+study_hours | attendance | previous_score | pass
+------------------------------------------------
+5           | 70         | 60             | 1
+3           | 60         | 50             | 0
+
+Why is it important:
+-This is the information your model learns from
+
+
+2. Train Model (Logistic Regression)
+Teach the model how to predict outcomes.
+What happens:
+- Input features → study hours, attendance, previous score
+- Output → pass (1) or fail (0)
+- The model (Logistic Regression) finds patterns in the data
+
+Why Logistic Regression:
+- Works well for binary classification (pass/fail)
+- Fast and easy to interpret
+
+
+3. Predict Pass/Fail
+Use the trained model to make decisions on new data.
+What happens:
+- Give new student data (e.g., 6 hours, 80% attendance)
+- Model processes it
+- Outputs:
+1 → PASS
+0 → FAIL
+
+Example:
+Input:  [6, 80, 70]  
+Output: PASS
