@@ -1,0 +1,14 @@
+Console Output:
+Accuracy: 0.85
+
+Prediction:
+PASS
+
+Example Explanation:
+Input:
+Study Hours: 6
+Attendance: 80
+Previous Score: 70
+
+Output:
+PASS
