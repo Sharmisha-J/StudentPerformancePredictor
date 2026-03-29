@@ -1,0 +1,23 @@
+Console Output:
+Logistic Regression Accuracy: 0.85
+Random Forest Accuracy: 0.90
+SVM Accuracy: 0.88
+
+Best Model Saved!
+
+
+Generated Files:
+- heatmap.png
+- scatter.png
+- Logistic Regression_cm.png
+- Random Forest_cm.png
+- SVM_cm.png
+
+
+Sample Confusion Matrix:
+[[9 1]
+ [2 8]]
+Meaning:
+- 9 correct PASS predictions
+- 8 correct FAIL predictions
+- 3 incorrect predictions
