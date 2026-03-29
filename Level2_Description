@@ -1,0 +1,66 @@
+LEVEL 2 — Visualization + Multiple Models
+
+Features
+- Graphs (heatmap, scatter)
+- Multiple models:
+  - Logistic Regression
+  - Random Forest
+  - SVM
+- Confusion Matrix
+
+
+1. Graphs (Heatmap, Scatter)
+Heatmap:
+Shows how features are related to each other.
+What happens:
+- Displays correlation between variables (values from -1 to 1)
+
+Example insight:
+- If study_hours increase → pass increases (strong positive correlation)
+
+Why important:
+- Helps understand which features matter most
+
+Scatter Plot
+Shows relationship between two features visually.
+What happens:
+- Plots points (e.g., study hours vs score)
+- Colors indicate pass/fail
+
+Why important:
+- Helps see patterns (e.g., students who pass cluster together)
+
+
+2. Multiple Models
+Try different algorithms to find the best one.
+Logistic Regression:
+- Simple and fast
+- Good for binary classification (pass/fail)
+
+Random Forest:
+- Uses many decision trees
+- More accurate and robust
+- Handles complex patterns better
+
+SVM (Support Vector Machine):
+- Finds the best boundary between classes
+- Works well for clear separations
+
+
+3. Confusion Matrix
+Measures how well your model predicts.
+Structure:
+	              Predicted Pass	  Predicted Fail
+Actual Pass	    True Positive	    False Negative
+Actual Fail	    False Positive	   True Negative
+
+What it tells you:
+- Correct predictions
+- Mistakes made by the model
+
+Example
+[[8 2]
+ [1 9]]
+- 8 correct passes
+- 9 correct fails
+- 3 mistakes
