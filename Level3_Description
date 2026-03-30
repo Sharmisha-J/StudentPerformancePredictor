@@ -1,0 +1,64 @@
+LEVEL 3 — Web App (Streamlit)
+
+
+Features
+- Interactive UI
+- User inputs (sliders)
+- Real-time prediction
+- Displays graphs
+
+
+1. Interactive UI
+A user-friendly interface where users can interact instead of using the terminal.
+What happens:
+- Opens a web app (using Streamlit)
+- Shows buttons, sliders, text, results
+
+Why is it important:
+- Makes your project easy to use
+- Looks professional on GitHub
+
+
+2. User Inputs (Sliders)
+Users provide input values using sliders.
+What happens:
+- Select study hours (e.g., 0–12)
+- Select attendance (0–100%)
+- Select previous score
+
+Example:
+Study Hours: 7  
+Attendance: 85  
+Score: 75
+
+Why is it important:
+- Simple and intuitive input method
+- No typing errors
+
+
+3. Real-Time Prediction
+The model instantly predicts based on user input.
+What happens:
+- User clicks “Predict”
+- Model processes input
+- Shows result immediately
+
+Output:
+PASS
+or
+FAIL
+
+Why is it important:
+- Fast response
+- Feels like a real application
+
+
+4. Displays Graphs
+Shows visual insights inside the app.
+What happens:
+- Displays heatmap, scatter plot, etc.
+- Helps users understand data patterns
+
+Why is it important:
+- Makes app more informative
+- Improves presentation quality
