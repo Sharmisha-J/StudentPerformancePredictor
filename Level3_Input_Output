@@ -1,0 +1,13 @@
+User Interface Input
+Study Hours: 7
+Attendance: 85
+Previous Score: 75
+
+
+Prediction Output (on screen)
+The student is likely to PASS
+
+
+Graphs Displayed
+- Feature Correlation Heatmap
+- Study vs Score Scatter Plot
