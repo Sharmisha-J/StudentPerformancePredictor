@@ -1,0 +1,23 @@
+Input:
+Study Hours: 7
+Attendance: 85
+Previous Score: 75
+
+Prediction:
+PASS
+
+Model Accuracy:
+Random Forest → 90%
+
+
+## Sample Output
+
+Prediction:
+PASS
+
+Best Model Accuracy:
+90%
+
+Confusion Matrix:
+[[9 1]
+ [2 8]]
